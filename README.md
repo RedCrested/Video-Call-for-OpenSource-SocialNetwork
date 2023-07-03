@@ -1,4 +1,4 @@
-# Video Call on Messages
+# Video Call on message chat for OpenSource-SocialNetwork
 
 This component adds a button to send a video call invitation on the Message system. The meeting is provided by Jitsi Meet, a fully encrypted, 100% open source video conferencing solution that you can use all day, every day, for free — with no account needed.There is no requirement to install another app and/or plugin. 
 
