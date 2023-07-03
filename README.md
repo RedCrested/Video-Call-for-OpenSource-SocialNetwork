@@ -14,7 +14,7 @@ The Jitsi Meet toolbar is customizable by editing the file toolbar_items.php. So
 ![Video Call Configurations](https://www.redcrested.net/components/JitsiMeetButton/JitsiMeetButton-3.jpg)
 
 ## How to buy
-I am selling this component for US$30.00 through the Buy me a coffee website. To purchase, visit [https://www.buymeacoffee.com/redcrested/e/147939](https://www.buymeacoffee.com/redcrested/e/147939) or click on button
+I am selling this component for US$39.00 through the Buy me a coffee website. To purchase, visit [https://www.buymeacoffee.com/redcrested/e/147939](https://www.buymeacoffee.com/redcrested/e/147939) or click on button
 
 [![](https://redcrested.net/res/img/button.png)](https://www.buymeacoffee.com/redcrested/e/147939)
 
