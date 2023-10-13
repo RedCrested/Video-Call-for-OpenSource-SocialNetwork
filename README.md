@@ -1,17 +1,23 @@
 # Video Call on message chat for OpenSource-SocialNetwork
 
-This component adds a button to send a video call invitation on the Message system. The meeting is provided by Jitsi Meet, a fully encrypted, 100% open source video conferencing solution that you can use all day, every day, for free — with no account needed.There is no requirement to install another app and/or plugin. 
+This component adds a button to send a video call invitation on the Message system. The meeting is provided by Jitsi Meet, a fully encrypted, 100% open-source video conferencing solution that you can use all day, every day, for free — with no account needed. There is no requirement to install another app and/or plugin. 
 
-Jitsi is a trademark of © 8x8, Inc. and if you won't create your own Jitsi Server, you can use the 8x8 Jitsi as a Service. To see details about the service, plans and prices, go to [https://jaas.8x8.vc/](https://jaas.8x8.vc/). If you use the default configurations of the component, the meetings are limited to 5 minutes by the jitsi.org.  However, there are many free Jitsi mirrors around the world. If you're looking for free mirrors of the Jitsi server, [take a look here](https://jitsi.github.io/handbook/docs/community/community-instances/). Use this option by your own risk.
+Jitsi is a trademark of © 8x8, Inc. and if you won't create your own Jitsi Server, you can use the 8x8 Jitsi as a Service. To see details about the service, plans and prices, go to [https://jaas.8x8.vc/](https://jaas.8x8.vc/). If you use the default configurations of the component, the meetings are limited to 5 minutes by jitsi.org.  However, there are many free Jitsi mirrors around the world. If you're looking for free mirrors of the Jitsi server, [take a look here](https://jitsi.github.io/handbook/docs/community/community-instances/). Use this option at your own risk.
 
 The Jitsi Meet toolbar is customizable by editing the file toolbar_items.php. Some options require additional configurations on the server or the purchasing of extra features if you're using 8x8 JaaS service.
-
 
 ![Video Call invitation](https://www.redcrested.net/components/JitsiMeetButton/JitsiMeetButton-1.jpg)
 
 ![Video call between users](https://www.redcrested.net/components/JitsiMeetButton/JitsiMeetButton-2.jpg)
 
 ![Video Call Configurations](https://www.redcrested.net/components/JitsiMeetButton/JitsiMeetButton-3.jpg)
+
+**Attention**
+
+ I found a post on the [Jitsi blog](https://jitsi.org/blog/authentication-on-meet-jit-si/) that explains that after August 24th, Jitsi closed anonymous meet registration on the https://meet.jit.si server. It means that at least one of the participants must have a Jitsi Account (or connect the third-party accounts in the Jitsi). The solution to avoid this is:
+1) Create your jitsi server
+2) Use 8x8.vc JaaS server
+3) Use some of the [Jitsi Free server](https://jitsi.github.io/handbook/docs/community/community-instances/). 
 
 ## How to buy
 I am selling this component for US$39.00 through the Buy me a coffee website. To purchase, visit [https://www.buymeacoffee.com/redcrested/e/147939](https://www.buymeacoffee.com/redcrested/e/147939) or click on button
@@ -71,6 +77,15 @@ native app instead. We provide a [native iOS SDK](/handbook/docs/dev-guide/dev-g
 
 ## Version
 
+- 2.2
+    - The user who invited the call has the moderator privilegies
+    - Added support to allow to Admin use the Jitsi's autheticated session 
+    - Added support to Giphy icons if the OssnGiphy is configured. Giphy icons are available in the raise hand menu.
+    - Added option to close or keep the window when meet is ended. 
+    - Added page to inform user that the meeting has ended, when window isn't closed automatically.
+- 2.1
+    - Improved admin form
+    - Fixed a conflict found with OssnSmilies component
 - 2.0
     - Added panel in Administrator section to add some configurations, such as Jitsi Server, secret room code and Jitsi as a Service (JaaS) key
     - Full language support
